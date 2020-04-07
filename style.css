@@ -1,0 +1,255 @@
+html {
+    background-color: #edf2c5;
+    width: 1260px;
+    height: 159px;
+    margin: auto;
+    text-align: center;
+}
+
+.container {
+    display: inline-flex;
+    width: 940px;
+    justify-content: space-between;
+    margin-top: 52px;
+    padding: 0;
+    padding-bottom: 2px;;
+}
+
+.title {
+    display: inline-flex;
+    font-family: "Arial-Black", sans-serif;
+    color: #778a50;
+    font-size: 44px;
+    align-items: flex-end;
+    margin: 0;
+    padding:0;
+}
+
+.loginarea {
+    display: inline-flex;
+    align-items: flex-end;
+    padding-bottom:13px;
+
+}
+
+.fbicon {
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    padding: 0;
+
+}
+
+.igicon {
+    display: inline-flex;
+    width: 25px;
+    height: 25px;
+    margin-left: 10px;
+    padding: 0;
+}
+
+.line {
+    border-left: 1px solid #778a50;
+    padding: 0;
+    margin: 0 auto;
+    margin-left: 10px;
+    height: 25px;
+}
+
+.buttonframe {
+    display: inline-flex;
+    border: 1px solid #778a50;
+    border-radius: 3px;
+    width: 60px;
+    height: 25px;
+    padding: 0;
+    margin: 0 auto;
+    margin-left: 10px;
+}
+
+.loginbutton {
+    display: inline-flex;
+    align-self: center;
+    color: #778a50;
+    width: 50px;
+    font-family: "Arial-BoldMT ", sans-serif;
+    font-size: 14px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 30px;
+    margin-bottom: 0;
+
+}
+
+.joinbutton {
+    display: inline-flex;
+    align-self: center;
+    color: #778a50;
+    width: 50px;
+    font-family: "Arial-BoldMT ", sans-serif;
+    font-size: 14px;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+
+/*.navbar {
+    width: 940px;
+    height: 44px;
+    background-color: #778a50;
+    margin: auto;
+    border-radius: 3px;
+}*/
+
+.nav {
+    display: flex;
+    width: 900px;
+    height: 44px;
+    border-radius: 3px;
+    background-color: #778a50;
+    margin: auto;
+    list-style: none;
+    font-family: "arial-black", sans-serif;
+    font-size: 16px;
+    color: #edf2c5;
+    align-items: center;
+    margin-top: 0;
+}
+
+li {
+    text-align: left;
+    margin-right: 60px;
+    padding: 0;
+}
+
+
+main {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+.container2 {
+    display: inline-flex;
+    width: 940px;
+    margin-top: 30px;
+    padding: 0;
+
+}
+
+.piccontainer {
+    width: 445px;
+    text-align: left;
+}
+
+.vegetitle {
+    display: inline-flex;
+    width: 415px;
+    height: 45px;
+    font-family: "Arial-Black", sans-serif;
+    color: #edf2c5;
+    background-color: #778a50;
+    font-size: 16px;
+    border-radius: 3px;
+    align-items: center;
+    padding-left: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.pic {
+    display: inline-flex;
+    width: 445px;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+.contactcontainer {
+    width: 445px;
+    justify-content: flex-end;
+    margin-left: 50px;
+}
+
+.contitle {
+    display: inline-flex;
+    width: 415px;
+    height: 45px;
+    font-family: "Arial-Black", sans-serif;
+    color: #edf2c5;
+    background-color: #778a50;
+    font-size: 16px;
+    border-radius: 3px;
+    align-items: center;
+    padding-left: 30px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.pcontainer {
+    width: 445px;
+    font-family: "ArialMT", sans-serif;
+    color: #7d7d7d;
+    background-color: #f7fbda;
+    font-size: 12px;
+    line-height: 16px;
+    border-radius: 3px;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.pcontent1 {
+    text-align: left;
+    padding-top: 10px;
+    padding-left: 15px;
+    padding-bottom: 0;
+    padding-right: 20px;
+}
+
+.line2 {
+    display: inline-flex;
+    border-top: 1px solid #7d7d7d;
+    width: 390px;
+    text-align: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-left: 16px;
+    padding-right: 17px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.pcontent2 {
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-bottom:0px;;
+}
+
+.pcontent3 {
+    text-align: left;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-bottom: 13px;
+}
+
+footer {
+    display: flex;
+    width: 1260px;
+    height: 60px;
+    border-radius: 3px;
+    background-color: #778a50;
+    margin: auto;
+    margin-top: 20px;
+    font-family: "arialMT", sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    color: #edf2c5;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
